@@ -52,15 +52,15 @@ La siguiente tabla resume las métricas del modelo regularizado y las compara co
 
 Las diferencias entre ambos modelos son mínimas.  Esto se debe a que la varianza del modelo base ya es relativamente baja; la regularización apenas modifica los pesos y, en consecuencia, los errores y los R² se mantienen casi iguales.  Los gráficos de dispersión de las predicciones frente a los valores reales muestran patrones muy similares:
 
-![Gráfico de dispersión del modelo base]({{file:file-XNatFtgAFx73gtxnzbzUus}})
+![Gráfico de dispersión del modelo base](base_model_scatter_new.png)
 
-![Gráfico de dispersión del modelo regularizado]({{file:file-AKd8fu6sXxPyZ3sjJvCFjs}})
+![Gráfico de dispersión del modelo regularizado](reg_model_scatter_new.png)
 
 Asimismo, los diagramas de barras comparando el MSE y el R² en los tres conjuntos evidencian que la regularización no cambia sustancialmente las métricas:
 
-![Comparación del MSE]({{file:file-4CZGPSYiQjMzabhWSD8Cgw}})
+![Comparación del MSE](mse_comparison_new.png)
 
-![Comparación del R²]({{file:file-6MAaGGRZc1xv5SgGXRbamt}})
+![Comparación del R²](r2_comparison_new.png)
 
 Aunque en este ejemplo la regularización no mejora de forma apreciable el desempeño, su inclusión es recomendable cuando se observa un aumento del error al pasar de entrenamiento a validación o prueba.  Ajustar \(\lambda\) mediante validación cruzada o incrementar el tamaño del conjunto de datos podrían ayudar a reducir la varianza en casos más complejos.
 
