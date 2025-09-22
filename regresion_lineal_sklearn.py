@@ -8,9 +8,7 @@ determinación (R²) en conjuntos de entrenamiento y prueba. Al final se
 proporciona un modo interactivo para hacer predicciones con nuevos valores
 de la variable independiente.
 
-Para ejecutar este archivo sólo necesitas tener instalado Python 3 y la
-biblioteca ``scikit‑learn``. Puedes instalar las dependencias con
-``pip install scikit-learn`` si no las tienes instaladas.
+
 """
 
 from __future__ import annotations
